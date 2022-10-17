@@ -12,7 +12,7 @@
   display: inline-block;
   padding: 10px 30px;
   color: white;
-  background-color: #9228a7;
+  background-color: #282ea7;
   border: none;
   border-radius: 5px;
 }
@@ -22,7 +22,7 @@
 }
 
 .btn-primary, .bg-primary {
-  background-color: #8226b8;
+  background-color: #282ea7;
   color: white;
 }
 
