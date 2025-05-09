@@ -1,0 +1,143 @@
+/*Text colors*/
+.text-primary {
+  color: #ffcc66;
+}
+
+.text-secondary {
+  color: #0284d0;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  background-color: #282ea7;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9
+}
+
+.btn-primary, .bg-primary {
+  background-color: #282ea7;
+  color: white;
+}
+
+.btn-secondary, .bg-secondary {
+  background-color: #ffcc66;
+  color: white;
+}
+
+.btn-dark, .bg-dark {
+  background-color: #333;
+  color: white;
+}
+
+.btn-primary, .bg-light {
+  background-color: white;
+  color: #333;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+/*Flex Items*/
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100%;  
+  padding: 20px;
+}
+
+.flex-columns.flex-reverse .row{
+  flex-direction: row-reverse;
+}
+
+/*Flex Columns*/
+.flex-columns .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* flex: flex-grow , flex-shrink , flex-basis */
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-basis: 40%;
+}
+
+.flex-columns .column .column-1, 
+.flex-columns .column .column-2 {
+  height: 100%;
+}
+
+.flex-columns img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+.flex-columns .column-2 {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.flex-columns h2 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.flex-columns h4 {
+  margin-bottom: 10px;
+}
+
+.flex-columns p {
+  margin: 20px 0;
+}
+
+/*Section Header*/
+.section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.section-header h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.section-padding {
+  padding: 20px 20px;
+  padding-bottom: 20px;
+}
+
+/*Flex-grid*/
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 2px 2px;
+}
